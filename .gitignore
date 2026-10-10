@@ -1,0 +1,26 @@
+# Root .gitignore for Faculty Management System
+
+# Environment & Secrets
+.env
+.env.local
+.env.*.local
+*.log
+
+# Dependencies & Build
+node_modules/
+dist/
+dist-ssr/
+*.local
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+
+# IDE & Editor
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.DS_Store
+Thumbs.db
